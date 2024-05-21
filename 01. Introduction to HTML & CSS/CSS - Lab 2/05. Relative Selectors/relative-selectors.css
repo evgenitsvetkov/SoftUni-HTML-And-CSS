@@ -1,0 +1,67 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.first-paragraphs > p{
+    color: red;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+section.first-paragraphs > article > p{
+    color: greenyellow;
+    font-style: italic;
+}
+
+div > article:first-of-type > p{
+    color: lightskyblue;
+    font-size: smaller;
+}
+
+article + article > p{
+    color: purple;
+    background-color: pink;
+    font-size:larger;
+}
+
+ul li{
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+ul.links > li > a{
+    text-decoration: none;
+}
+
+li.second-link + li.third-link > a{
+    color: green;
+}
+
+ul.links > li.first-link > a{
+    color: purple;
+}
+
+ul.items > li:nth-of-type(2) {
+    color: red;
+}
+
+li.first-link + li.second-link{
+    background-color: aqua;
+}
+
+
+ul li ul li {
+    padding-bottom: 8px;
+}
+
+ul li {
+    padding-bottom: 6px;
+}
+
+ul.links {
+    padding-left: 20px;
+}
+
+h2 ~ p {
+    color: dodgerblue;
+}
