@@ -1,0 +1,13 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header + p{
+    font-style: italic;
+    color: gray
+}
+
+p > span {
+    font-weight: bolder;
+    font-style: normal;
+}

@@ -1,0 +1,19 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+p > span {
+    font-weight: bolder;
+}
+
+p > time {
+    font-style: italic;
+}
+
+h1 + p, h2 + p {
+    color: gray;
+}
