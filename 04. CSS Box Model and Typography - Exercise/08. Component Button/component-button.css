@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 2em;
+    padding-left: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    padding: 0.5em 0.4em;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none outside;   
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    border: 2px solid lightgrey;
+    border-radius: 5%;
+    margin: 0.5em;
+}
+
+li a.normal-button {
+    background-color: lightgrey;
+}
+
+li a.button-primary {
+    background-color: darkorange;
+}
+
+li a.button-secondary {
+    background-color: lightyellow;
+}
+
+li a.button-outline {
+    background-color: white;
+}
+
+li a.button-icon {
+    background-color: lightgrey;
+}
+
+li button {
+    display: block;
+    margin: 8px;
+    padding: 16px;
+    border: 2px solid lightgrey;
+    border-radius: 5%;
+    font-size:medium;
+}
+
+li button.normal-button {
+    background-color: lightgrey;
+}
+
+li button.button-primary {
+    background-color: darkorange;
+}
+
+li button.button-secondary {
+    background-color: lightyellow;
+}
+
+li button.button-outline {
+    background-color: white;
+}
+
+li button.button-icon {
+    background-color: lightgrey;
+}
