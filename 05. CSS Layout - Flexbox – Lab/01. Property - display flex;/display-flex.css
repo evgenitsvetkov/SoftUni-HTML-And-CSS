@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    margin: 0 0.5em;
+}
+
+h1 {
+    padding: 20px 0;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-container > .flex-item {
+    background-color: #eee;
+    padding: 1em;
+    border: 2px solid #000;
+}
