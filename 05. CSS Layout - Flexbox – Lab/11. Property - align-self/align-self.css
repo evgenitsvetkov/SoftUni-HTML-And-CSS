@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    padding: 0em 0.5em;
+}
+
+h1 {
+    padding: 0.5em 0;
+}
+
+h2 {
+    padding: 0.5em 0;
+}
+
+.flex-container {
+    display: flex;
+    border: 2px solid blue;
+    padding: 1em;
+    width: 400px;
+    height: 200px;
+    align-items: flex-start;
+}
+
+.flex-item {
+    border: 2px solid black;
+    background-color: #eee;
+    padding: 1em;
+}
+
+.flex-container.align-self-flex-start .flex-item:nth-child(2){
+    align-self: flex-start;
+}
+
+.flex-container.align-self-center .flex-item:nth-child(2){
+    align-self: center;
+}
+
+.flex-container.align-self-flex-end .flex-item:nth-child(2){
+    align-self: flex-end;
+}
+
+.flex-container.align-self-baseline .flex-item:nth-child(2){
+    align-self: baseline;
+}
