@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    padding: 0em 0.5em;
+}
+
+h1 {
+    padding: 0.5em 0;
+}
+
+h2 {
+    padding: 0.5em 0;
+}
+
+.flex-container {
+    display: flex;
+    border: 2px solid blue;
+    padding: 1em;
+    width: 400px;
+}
+
+.flex-item {
+    border: 2px solid black;
+    background-color: #eee;
+    padding: 1em;
+    flex-basis: 300px;
+}
+
+.flex-container.flex-basis-5em .flex-item{
+    flex-basis: 5em;
+}
+
+.flex-container.flex-shrink-zero .flex-item{
+    flex-shrink: 0;
+    max-width: 5em;
+}
+
+.flex-grow-one{
+    width: 900px;
+}
+
+.flex-container.flex-grow-one .flex-item{
+    flex-grow: 1;
+    min-width: 5em;
+}
