@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 'Lato', sans-serif;
+}
+
+body, select, option {
+    font: inherit;
+}
+
+body {
+    padding: 2em;
+}
+
+code {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 0.3em;
+    background: #eee;
+    padding: 2em 2em 0.5em 2em;
+    margin: 2em 0;
+    overflow: auto;
+}
+
+select[multiple] {
+    display: block;
+    min-width: 20ch;
+    min-height: 20ch;
+}
