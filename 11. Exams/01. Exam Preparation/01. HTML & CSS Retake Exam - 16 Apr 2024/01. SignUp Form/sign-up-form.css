@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Kode Mono", sans-serif;
+}
+
+body, input, button, textarea {
+    font: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background: #C1BDBA;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 500px;
+    padding: 3.5em;
+    border-radius: 0.4em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    background: #24333C;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.nav li {
+    display: block;
+    flex: 1 1 auto;
+    list-style: none;
+    width: 100%;
+}
+
+.nav a {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    padding: 1em 2em;
+    text-align: center;
+    background: #435359;
+}
+
+.nav li.current a {
+    background: #1AB188;
+}
+
+form > h2 {
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    font-size: 2em;
+    padding-bottom: 2rem;
+}
+
+.field {
+    position: relative;
+    padding-bottom: 2em;
+}
+
+.field input{
+    display: block;
+    width: 100%;
+    border: 1px solid #A0B3B0;
+    background-color: transparent;
+    padding: 0.3em 0.5em;
+    line-height: 1;
+    outline: none;
+}
+
+.field label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.3em 0.5em;
+    color: #929998;
+}
+
+.field input:required ~ label::after {
+    display: inline-block;
+    content: '*';
+    color: #1AB188;
+    padding-left: 0.2em;
+}
+
+form > .buttons-flex {
+    display: flex;
+    gap: 1.5em;
+}
+
+form > input[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #1AB188;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+form > .nav > li:last-of-type > a:hover,
+form > .nav > li:last-of-type > a:focus {
+    background-color: #179A77;
+} 
