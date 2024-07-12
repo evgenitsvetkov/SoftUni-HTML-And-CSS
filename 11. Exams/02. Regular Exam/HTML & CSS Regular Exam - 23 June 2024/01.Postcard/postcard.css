@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+html {
+    font:14px/1.5 "Gochi Hand", sans-serif;
+}
+
+body, input, textarea {
+    font: inherit;
+}
+
+body {
+    background: #eee;
+}
+
+.postcard {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #fff;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    padding: 2em 2em 0 2em;
+    margin-top: 2em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+.postcard-header {
+   display: flex;
+   flex-direction: column;
+   width: 100%; 
+}
+
+.postcard-header .wrapper {
+    display: block;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-position: center -6em;
+    background-image: url('01.Postcard_Resources/images/nature.jpg');
+    background-size: 1000px auto;
+    background-repeat: no-repeat;
+}
+
+.wrapper .content {
+    display: block;
+    background: #fff;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 0.5em;
+    margin-top: 20em;
+    margin-bottom: 3em;
+}
+
+.content h2 {
+    margin: 0;
+    padding-top: 0.5em;
+    color: #333333;
+}
+
+.content p {
+    margin: 0;
+    padding: 1em 2.5em;
+    font-size: 1.2em;
+    color: #666666;
+}
+
+.postcard-footer {
+    display: block;
+    background: #F9F9F9;
+    border-top: 2px solid #ccc;
+    max-width: 1058px;
+    margin: 0 auto;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);   
+}
+
+.postcard-footer blockquote {
+    margin: 0;
+    padding-left: 3em;
+    padding-bottom: 2em;
+}
+
+.postcard-footer blockquote h2{
+    margin: 0;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333333;
+}
+
+.postcard-footer blockquote p{
+    margin: 0;
+    padding: 0.2em 0;
+    font-size: 1.2em;
+    color: #666666;
+}
+
+
